@@ -1,0 +1,718 @@
+* {
+  box-sizing: border-box;
+}
+
+header nav div.container-fluid div.collapse ul li .active {
+  color: forestgreen;
+}
+header nav div.container-fluid div.collapse ul li:hover a {
+  color: forestgreen;
+}
+header nav div.container-fluid div.collapse ul li button .disabled {
+  color: white;
+}
+
+section.hotelSlide div.carousel div.carousel-inner div.carousel-item div.carousel-caption h2 {
+  font-size: 3vw;
+}
+section.hotelSlide div.carousel div.carousel-inner div.carousel-item div.carousel-caption p {
+  font-size: 2vw;
+}
+
+section.hotelAbout {
+  background: linear-gradient(25deg, #f8c3cd, transparent, #f9bf45);
+  padding: 10vh 0;
+}
+section.hotelAbout div.hotelAboutDescript {
+  width: 70%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+section.hotelAbout div.hotelAboutDescript div.hoteltxt {
+  width: 75%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0.3rem 0.3rem 1rem #bdc0ba;
+  padding: 10px;
+}
+section.hotelAbout div.hotelAboutDescript div.hoteltxt h5 {
+  font-size: 2rem;
+  padding: 1rem;
+}
+section.hotelAbout div.hotelAboutDescript div.hoteltxt p {
+  font-size: 1rem;
+  padding: 1rem;
+}
+section.hotelAbout div.hotelAboutDescript div.hotelAboutPic {
+  margin-top: 5vh;
+  display: flex;
+}
+section.hotelAbout div.hotelAboutDescript div.hotelAboutPic img {
+  width: 90%;
+  margin: auto;
+}
+
+section.hotelAmenities {
+  position: relative;
+}
+section.hotelAmenities div.amenities {
+  background-color: whitesmoke;
+  padding: 10vh 0;
+}
+section.hotelAmenities div.amenities div.amenity-emptyBox-Rec {
+  width: 450px;
+  height: 450px;
+  border: 5px solid #f4a7b9;
+  position: absolute;
+  left: 10%;
+  top: 45%;
+}
+section.hotelAmenities div.amenities div.amenity-emptyBox-circle {
+  width: 450px;
+  height: 450px;
+  border: 5px solid #f9bf45;
+  border-radius: 50%;
+  position: absolute;
+  left: 70%;
+  top: 10%;
+}
+section.hotelAmenities div.amenities div.amenity-1,
+section.hotelAmenities div.amenities div.amenity-2,
+section.hotelAmenities div.amenities div.amenity-3 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-pic,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-pic,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-pic,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-pic,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-pic,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-pic {
+  justify-content: center;
+}
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic img,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic img,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic img,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-pic img,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-pic img,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-pic img,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-pic img,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-pic img,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-pic img {
+  width: 350px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-txt,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-txt,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-txt,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-txt,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-txt,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-txt,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-txt,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-txt,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-txt {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3rem;
+  width: 25%;
+  height: 300px;
+  align-items: center;
+  text-align: center;
+}
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-txt h3,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-txt h3,
+section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-txt h3,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-txt h3,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-txt h3,
+section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-txt h3,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-txt h3,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-txt h3,
+section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-txt h3 {
+  color: #e2943b;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+section.hotelAmenities div.amenities div.amenity-2,
+section.hotelAmenities div.amenities div.amenity-3 {
+  margin-top: 10vh;
+}
+
+section.hotelView {
+  background: linear-gradient(25deg, #0b1013, #211e55);
+  padding: 10vh 0;
+}
+section.hotelView h2 {
+  padding: 1rem;
+  color: #f7d94c;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
+section.hotelView div.view-part1 {
+  margin-bottom: 10vh;
+}
+section.hotelView div.view-part1 div.col a {
+  text-decoration: none;
+}
+section.hotelView div.view-part1 div.col a div.card {
+  transition: all 0.5s ease;
+}
+section.hotelView div.view-part1 div.col a div.card div.card-body h5 {
+  color: #113285;
+  font-weight: bold;
+}
+section.hotelView div.view-part1 div.col a div.card:hover {
+  transform: scale(110%);
+  cursor: pointer;
+}
+section.hotelView div.view-part2 {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+section.hotelView div.view-part2 div.view-part2-pic {
+  justify-content: center;
+  width: 60%;
+}
+section.hotelView div.view-part2 div.view-part2-pic img {
+  width: 100%;
+}
+section.hotelView div.view-part2 div.view-Part2-txt {
+  width: 30%;
+  color: white;
+  margin: 0 10px;
+  padding: 3rem;
+  align-items: center;
+  text-align: center;
+}
+section.hotelView div.view-part2 div.view-Part2-txt h3 {
+  color: #fbe251;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+section.hotelMap {
+  position: relative;
+}
+section.hotelMap div.map {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+section.hotelMap div.map div.map-txt {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 3rem;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+}
+section.hotelMap div.map div.map-txt h3 {
+  text-align: center;
+}
+section.hotelMap div.map div.map-txt a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+section.hotelMap div.map div.map-pic {
+  width: 100%;
+}
+section.hotelMap div.map div.map-pic img {
+  width: 100%;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+footer section.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+footer section.logo img {
+  width: 40%;
+}
+footer section.links a {
+  margin: 0rem 1rem;
+}
+
+section.intro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #fedfe1, #fad689, #81c7d4, transparent 60%), url(./images/intro-p1.png);
+}
+section.intro div.intro-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+section.intro div.intro-container div.intro-pic {
+  width: 45%;
+}
+section.intro div.intro-container div.intro-pic img {
+  width: 100%;
+}
+section.intro div.intro-container div.intro-txt {
+  padding: 1rem 2rem;
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0.5rem 0.5rem #787d7b;
+}
+section.intro div.intro-container div.intro-txt h3 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+section.intro div.intro-container div.intro-txt ul {
+  font-size: 1.25rem;
+}
+section.intro div.intro-container div.intro-txt a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+}
+body img.fixed-img {
+  min-height: 100vh;
+  position: fixed;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -5;
+  bottom: 0;
+  left: 0;
+}
+body section.fliter-1 {
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body section.fliter-1 h2 {
+  color: pink;
+  font-size: 4rem;
+}
+body section.fliter-1 h3 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+body section.viewInfo-1 {
+  background-color: white;
+}
+body section.viewInfo-1 .row {
+  width: 80%;
+  padding: 10vh 0;
+}
+body section.viewInfo-1 .row .card-body h5 {
+  font-weight: bold;
+}
+body section.viewInfo-Slide {
+  background-color: white;
+  padding-bottom: 10vh;
+}
+body section.viewInfo-Slide .carousel {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+body section.viewInfo-2 {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0;
+}
+body section.viewInfo-2 .view-2-pic {
+  display: flex;
+  flex: 0 1 600px;
+  justify-content: center;
+  align-items: center;
+}
+body section.viewInfo-2 .view-2-pic img {
+  width: 100%;
+}
+body section.viewInfo-2 .view-2-txt {
+  color: white;
+  flex: 0 1 600px;
+  padding: 3rem;
+  align-items: center;
+  text-align: center;
+}
+body section.viewInfo-2 .view-2-txt h3 {
+  color: #f7d94c;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+section.room-info {
+  background: #fcfaf2;
+  padding: 10vh 0;
+  position: relative;
+}
+section.room-info .room-emptyContainer-1 {
+  width: 450px;
+  height: 450px;
+  border: 5px solid #81c7d4;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(30deg);
+}
+section.room-info .room-emptyContainer-2 {
+  width: 450px;
+  height: 600px;
+  border: 5px solid #f4a7b9;
+  position: absolute;
+  left: 65%;
+  top: 20%;
+  transform: rotate(0deg);
+}
+section.room-info .room-emptyContainer-3 {
+  width: 500px;
+  height: 500px;
+  border: 5px solid #fc9f4d;
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+}
+section.room-info .room-1,
+section.room-info .room-2,
+section.room-info .room-3,
+section.room-info .room-4 {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+section.room-info .room-1 .room-1-pic,
+section.room-info .room-1 .room-2-pic,
+section.room-info .room-1 .room-3-pic,
+section.room-info .room-1 .room-4-pic,
+section.room-info .room-2 .room-1-pic,
+section.room-info .room-2 .room-2-pic,
+section.room-info .room-2 .room-3-pic,
+section.room-info .room-2 .room-4-pic,
+section.room-info .room-3 .room-1-pic,
+section.room-info .room-3 .room-2-pic,
+section.room-info .room-3 .room-3-pic,
+section.room-info .room-3 .room-4-pic,
+section.room-info .room-4 .room-1-pic,
+section.room-info .room-4 .room-2-pic,
+section.room-info .room-4 .room-3-pic,
+section.room-info .room-4 .room-4-pic {
+  border: 1px solid white;
+  width: 40%;
+}
+section.room-info .room-1 .room-1-pic img,
+section.room-info .room-1 .room-2-pic img,
+section.room-info .room-1 .room-3-pic img,
+section.room-info .room-1 .room-4-pic img,
+section.room-info .room-2 .room-1-pic img,
+section.room-info .room-2 .room-2-pic img,
+section.room-info .room-2 .room-3-pic img,
+section.room-info .room-2 .room-4-pic img,
+section.room-info .room-3 .room-1-pic img,
+section.room-info .room-3 .room-2-pic img,
+section.room-info .room-3 .room-3-pic img,
+section.room-info .room-3 .room-4-pic img,
+section.room-info .room-4 .room-1-pic img,
+section.room-info .room-4 .room-2-pic img,
+section.room-info .room-4 .room-3-pic img,
+section.room-info .room-4 .room-4-pic img {
+  width: 100%;
+}
+section.room-info .room-1 .room-1-txt,
+section.room-info .room-1 .room-2-txt,
+section.room-info .room-1 .room-3-txt,
+section.room-info .room-1 .room-4-txt,
+section.room-info .room-2 .room-1-txt,
+section.room-info .room-2 .room-2-txt,
+section.room-info .room-2 .room-3-txt,
+section.room-info .room-2 .room-4-txt,
+section.room-info .room-3 .room-1-txt,
+section.room-info .room-3 .room-2-txt,
+section.room-info .room-3 .room-3-txt,
+section.room-info .room-3 .room-4-txt,
+section.room-info .room-4 .room-1-txt,
+section.room-info .room-4 .room-2-txt,
+section.room-info .room-4 .room-3-txt,
+section.room-info .room-4 .room-4-txt {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0.3rem 0.3rem 1rem #ebb471;
+  justify-content: center;
+  margin: 3rem;
+  align-items: center;
+  background-color: rgba(250, 219, 83, 0.6352941176);
+  border-radius: 50%;
+}
+section.room-info .room-1 .room-4-txt,
+section.room-info .room-2 .room-4-txt,
+section.room-info .room-3 .room-4-txt,
+section.room-info .room-4 .room-4-txt {
+  color: white;
+  background: linear-gradient(30deg, #211e55, #f6c555);
+  box-shadow: 0.3rem 0.3rem 1rem #0b1013;
+}
+section.room-info .room-1 {
+  left: -10%;
+}
+section.room-info .room-2 {
+  left: 0;
+}
+section.room-info .room-3 {
+  left: 10%;
+}
+section.room-info .room-4 {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-pic,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-pic,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-pic,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-pic,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-pic,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-pic {
+    width: 80%;
+  }
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic img,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic img,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic img,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-pic img,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-pic img,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-pic img,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-pic img,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-pic img,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-pic img {
+    width: 100%;
+  }
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-txt,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-txt,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-txt,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-txt,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-txt,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-txt,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-txt,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-txt,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-txt {
+    width: 80%;
+  }
+  section.hotelView div.view-part2 div.view-part2-pic {
+    width: 80%;
+  }
+  section.hotelView div.view-part2 div.view-part2-pic img {
+    width: 100%;
+  }
+  section.hotelView div.view-part2 div.view-Part2-txt {
+    width: 90%;
+  }
+  section.intro div.intro-container {
+    flex-direction: column;
+  }
+  section.intro div.intro-container div.intro-pic {
+    width: 80%;
+  }
+  section.intro div.intro-container div.intro-pic img {
+    width: 100%;
+  }
+  section.intro div.intro-container div.intro-txt {
+    width: 80%;
+    height: 35%;
+  }
+  section.room-info .room-1,
+  section.room-info .room-2,
+  section.room-info .room-3,
+  section.room-info .room-4 {
+    width: 100%;
+    left: 0;
+  }
+  section.room-info .room-1 .room-1-pic,
+  section.room-info .room-1 .room-2-pic,
+  section.room-info .room-1 .room-3-pic,
+  section.room-info .room-1 .room-4-pic,
+  section.room-info .room-2 .room-1-pic,
+  section.room-info .room-2 .room-2-pic,
+  section.room-info .room-2 .room-3-pic,
+  section.room-info .room-2 .room-4-pic,
+  section.room-info .room-3 .room-1-pic,
+  section.room-info .room-3 .room-2-pic,
+  section.room-info .room-3 .room-3-pic,
+  section.room-info .room-3 .room-4-pic,
+  section.room-info .room-4 .room-1-pic,
+  section.room-info .room-4 .room-2-pic,
+  section.room-info .room-4 .room-3-pic,
+  section.room-info .room-4 .room-4-pic {
+    width: 80%;
+  }
+  section.room-info .room-emptyContainer-1 {
+    width: 400px;
+    height: 400px;
+  }
+  section.room-info .room-emptyContainer-2 {
+    width: 300px;
+    height: 500px;
+    left: 50%;
+    top: 20%;
+  }
+  section.room-info .room-emptyContainer-3 {
+    width: 500px;
+    height: 500px;
+    left: 10%;
+    top: 60%;
+  }
+}
+@media screen and (max-width: 576px) {
+  header nav div.container-fluid div.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  section.hotelAbout {
+    padding: 0;
+  }
+  section.hotelAbout div.hotelAboutDescript {
+    width: 100%;
+  }
+  section.hotelAbout div.hoteltxt {
+    width: 90%;
+  }
+  section.hotelAbout div.hotelAboutPic img {
+    width: 100%;
+  }
+  section.hotelAmenities div.amenities div.amenity-emptyBox-Rec,
+  section.hotelAmenities div.amenities div.amenity-emptyBox-circle {
+    display: none;
+  }
+  section.hotelView h2 {
+    font-size: 2rem;
+  }
+  section.hotelView div.view-part2 {
+    width: 100%;
+  }
+  section.hotelView div.view-part2 div.view-part2-pic {
+    width: 90%;
+  }
+  section.hotelView div.view-part2 div.view-part2-pic img {
+    width: 100%;
+  }
+  section.hotelView div.view-part2 div.view-Part2-txt {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  section.hotelMap div.map div.map-txt {
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  section.intro {
+    align-items: start;
+  }
+  section.intro div.intro-container {
+    width: 100%;
+  }
+  section.intro div.intro-container div.intro-pic {
+    width: 100%;
+  }
+  section.intro div.intro-container div.intro-txt {
+    width: 80%;
+  }
+  section.intro div.intro-container div.intro-txt ul {
+    font-size: 1rem;
+  }
+  section.room-info .room-1,
+  section.room-info .room-2,
+  section.room-info .room-3,
+  section.room-info .room-4 {
+    width: 100%;
+    left: 0;
+  }
+  section.room-info .room-1 .room-1-pic,
+  section.room-info .room-1 .room-2-pic,
+  section.room-info .room-1 .room-3-pic,
+  section.room-info .room-1 .room-4-pic,
+  section.room-info .room-2 .room-1-pic,
+  section.room-info .room-2 .room-2-pic,
+  section.room-info .room-2 .room-3-pic,
+  section.room-info .room-2 .room-4-pic,
+  section.room-info .room-3 .room-1-pic,
+  section.room-info .room-3 .room-2-pic,
+  section.room-info .room-3 .room-3-pic,
+  section.room-info .room-3 .room-4-pic,
+  section.room-info .room-4 .room-1-pic,
+  section.room-info .room-4 .room-2-pic,
+  section.room-info .room-4 .room-3-pic,
+  section.room-info .room-4 .room-4-pic {
+    width: 90%;
+  }
+  section.room-info .room-1 .room-4-txt,
+  section.room-info .room-2 .room-4-txt,
+  section.room-info .room-3 .room-4-txt,
+  section.room-info .room-4 .room-4-txt {
+    background: linear-gradient(0deg, #211e55, #f6c555);
+  }
+  section.room-info .room-emptyContainer-1 {
+    width: 200px;
+    height: 200px;
+  }
+  section.room-info .room-emptyContainer-2 {
+    width: 200px;
+    height: 400px;
+    left: 10%;
+    top: 20%;
+  }
+  section.room-info .room-emptyContainer-3 {
+    width: 300px;
+    height: 300px;
+    left: 10%;
+    top: 50%;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+nav {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+nav ul li a:hover {
+  color: palevioletred;
+}
+nav ul li a.active {
+  color: palevioletred;
+}
+
+body main section.main-area {
+  min-height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body main section.main-area div.info {
+  flex: 0 1 450px;
+  padding: 1rem;
+}
+body main section.main-area div.info h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff175;
+  text-shadow: -2px 0px 0px black, 0px 2px 0px black, 2px 0px 0px black, 0px -2px 1px black;
+}
+body main section.main-area div.info h2 {
+  text-align: center;
+  padding-top: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #e87a90;
+  font-weight: bold;
+}
+body main section.main-area div.info p {
+  text-align: justify;
+  line-height: 2rem;
+}
+body main section.main-area div.info b {
+  color: #c7802d;
+}
+body main section.main-area div.img-area {
+  flex: 0 1 450px;
+}
+body main section.main-area div.img-area img {
+  width: 100%;
+}
+body main section.about-me {
+  background-color: #fedfe1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+}
+body main section.about-me div.description {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+body main section.about-me div.description h2 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 0.5rem;
+  text-shadow: -2px 0px 1px #e16b8c, 0px 2px 1px #e16b8c, 2px 0px 1px #e16b8c, 0px -2px 1px #e16b8c;
+  margin-bottom: 2rem;
+}
+body main section.about-me div.description ul {
+  line-height: 2rem;
+}
+body main section.resume {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10vh 0;
+}
+body main section.resume div.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main section.resume div.table h2 {
+  color: white;
+  font-size: 2.5rem;
+  letter-spacing: 1.5rem;
+  text-shadow: -2px 0px 1px #ffb11b, 0px 2px 1px #ffb11b, 2px 0px 1px #ffb11b, 0px -2px 1px #ffb11b;
+  margin-bottom: 2rem;
+}
+body main section.resume div.table table {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 70%;
+  border-collapse: collapse;
+}
+body main section.resume div.table table tr {
+  border-bottom: none;
+  transition: all 0.2s ease;
+}
+body main section.resume div.table table tr td {
+  padding: 1rem;
+}
+body main section.resume div.table table tr td.title {
+  text-align: center;
+}
+body main section.resume div.table table tr td.col-1 {
+  text-align: center;
+  width: 20%;
+}
+body main section.resume div.table table tr td.col-2 {
+  text-align: center;
+  width: 10%;
+}
+body main section.resume div.table table tr td.col-3 {
+  width: 35%;
+}
+body main section.resume div.table table tr.work:hover {
+  background-color: #d2f7fd;
+}
+body main section.resume div.table table tr.education:hover {
+  background-color: #e4ffd5;
+}
+body main section.resume div.table table tr.language ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+body main section.resume div.table table tr.language:hover {
+  background-color: #fffab4;
+}
+body main section.resume div.table .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+body main section.resume div.table .logo img {
+  width: 75px;
+}
+
+@media screen and (max-width: 900px) {
+  body main section.about-me div.description {
+    width: 100%;
+  }
+  body main section.about-me div.description h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  body main section.resume div.table table {
+    width: 100%;
+  }
+  body main section.resume div.table table tr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main section.resume div.table table tr td.col-1,
+  body main section.resume div.table table tr td.col-2,
+  body main section.resume div.table table tr td.col-3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+  }
+  body main section.resume div.table table tr.language ul {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */

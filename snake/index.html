@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>貪食蛇小遊戲</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="320"
+      height="320"
+      style="background-color: black"
+    ></canvas>
+    <div class="game-info">
+      <h2>貪食蛇小遊戲</h2>
+      <p id="myScore2"></p>
+      <p id="myScore"></p>
+      <p>使用 鍵盤 W S A D 或 方向鍵 來控制蛇的方向</p>
+    </div>
+    <button type="button" id="Start" onclick="location.reload()">
+      開始新遊戲
+    </button>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+body div.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5vh 0;
+}
+body div.main div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body div.main div.text h2 {
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 0.5rem;
+  text-shadow: -2px 0px 1px deepskyblue, 0px 2px 1px deepskyblue, 2px 0px 1px deepskyblue, 0px -2px 1px deepskyblue;
+}
+body div.main div.text p {
+  font-size: 2rem;
+  color: gold;
+  font-weight: bold;
+  text-shadow: -1px 0px 0px black, 0px 1px 0px black, 1px 0px 0px black, 0px -1px 0px black;
+}/*# sourceMappingURL=style.css.map */
