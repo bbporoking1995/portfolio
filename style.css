@@ -81,7 +81,7 @@ body main section.about-me {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10vh;
+  padding: 10vh 0;
 }
 body main section.about-me div.description {
   display: flex;
@@ -99,6 +99,7 @@ body main section.about-me div.description h2 {
   margin-bottom: 2rem;
 }
 body main section.about-me div.description ul {
+  width: 90%;
   line-height: 2rem;
 }
 body main section.resume {
