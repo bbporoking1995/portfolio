@@ -30,7 +30,7 @@ body div.game-info p {
 #myCanvas {
   border: 5px solid palevioletred;
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%);
 }
