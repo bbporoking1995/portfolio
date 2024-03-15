@@ -512,7 +512,7 @@ section.room-info .room-4 {
   width: 100%;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1250px) {
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic,
@@ -555,9 +555,6 @@ section.room-info .room-4 {
   section.hotelView div.view-part2 div.view-Part2-txt {
     width: 90%;
   }
-  section.room-info .room-emptyContainer-2 {
-    display: none;
-  }
   section.intro div.intro-container {
     flex-direction: column;
   }
@@ -594,17 +591,14 @@ section.room-info .room-4 {
   section.room-info .room-4 .room-2-pic,
   section.room-info .room-4 .room-3-pic,
   section.room-info .room-4 .room-4-pic {
-    width: 80%;
+    width: 60%;
   }
   section.room-info .room-emptyContainer-1 {
     width: 400px;
     height: 400px;
   }
   section.room-info .room-emptyContainer-2 {
-    width: 300px;
-    height: 500px;
-    left: 50%;
-    top: 20%;
+    display: none;
   }
   section.room-info .room-emptyContainer-3 {
     width: 500px;
