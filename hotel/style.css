@@ -124,12 +124,14 @@ section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-txt,
 section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-txt,
 section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-txt,
 section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 3rem;
   width: 25%;
   height: 300px;
-  align-items: center;
-  text-align: center;
 }
 section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-txt h3,
 section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-txt h3,
@@ -510,7 +512,7 @@ section.room-info .room-4 {
   width: 100%;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic,
@@ -633,6 +635,17 @@ section.room-info .room-4 {
   section.hotelAmenities div.amenities div.amenity-emptyBox-Rec,
   section.hotelAmenities div.amenities div.amenity-emptyBox-circle {
     display: none;
+  }
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-txt,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-txt,
+  section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-txt,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-1-txt,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-2-txt,
+  section.hotelAmenities div.amenities div.amenity-2 div.amenity-3-txt,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-1-txt,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-2-txt,
+  section.hotelAmenities div.amenities div.amenity-3 div.amenity-3-txt {
+    padding: 1.5rem;
   }
   section.hotelView h2 {
     font-size: 2rem;
