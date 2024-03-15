@@ -553,6 +553,9 @@ section.room-info .room-4 {
   section.hotelView div.view-part2 div.view-Part2-txt {
     width: 90%;
   }
+  section.room-info .room-emptyContainer-2 {
+    display: none;
+  }
   section.intro div.intro-container {
     flex-direction: column;
   }
@@ -670,6 +673,11 @@ section.room-info .room-4 {
   }
   section.intro div.intro-container div.intro-txt ul {
     font-size: 1rem;
+  }
+  section.room-info .room-emptyContainer-1,
+  section.room-info .room-emptyContainer-2,
+  section.room-info .room-emptyContainer-3 {
+    display: none;
   }
   section.room-info .room-1,
   section.room-info .room-2,
