@@ -555,17 +555,20 @@ section.room-info .room-4 {
   section.hotelView div.view-part2 div.view-Part2-txt {
     width: 90%;
   }
+  section.intro {
+  background-size: cover;
+  }
   section.intro div.intro-container {
     flex-direction: column;
   }
   section.intro div.intro-container div.intro-pic {
-    width: 80%;
+    width: 60%;
   }
   section.intro div.intro-container div.intro-pic img {
     width: 100%;
   }
   section.intro div.intro-container div.intro-txt {
-    width: 80%;
+    width: 70%;
     height: 35%;
   }
   section.room-info .room-1,
