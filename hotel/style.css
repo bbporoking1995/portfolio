@@ -512,7 +512,7 @@ section.room-info .room-4 {
   width: 100%;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1200px) {
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic,
