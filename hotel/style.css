@@ -565,6 +565,7 @@ section.room-info .room-4 {
   }
   section.intro div.intro-container {
     flex-direction: column;
+    margin: 5vh 0;
   }
   section.intro div.intro-container div.intro-pic {
     width: 60%;
