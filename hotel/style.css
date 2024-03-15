@@ -264,7 +264,7 @@ footer section.links a {
 
 section.intro {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -513,6 +513,11 @@ section.room-info .room-4 {
 }
 
 @media screen and (max-width: 1250px) {
+  section.hotelAmenities div.amenities div.amenity-emptyBox-Rec,
+  section.hotelAmenities div.amenities div.amenity-emptyBox-circle {
+    display: none;
+  }
+  
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-1-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-2-pic,
   section.hotelAmenities div.amenities div.amenity-1 div.amenity-3-pic,
