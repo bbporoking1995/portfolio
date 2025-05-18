@@ -109,22 +109,22 @@ function drawCircle() {
   //確認右邊邊界
   if (circle_x >= canvasWidth - radius) {
     xSpeed *= -1;
-    console.log(circle_x, circle_y);
+    // console.log(circle_x, circle_y);
   }
   //確認下邊邊界
   if (circle_y >= canvasHeight - radius) {
     ySpeed *= -1;
-    console.log(circle_x, circle_y);
+    // console.log(circle_x, circle_y);
   }
   //確認上邊邊界
   if (circle_y <= radius) {
     ySpeed *= -1;
-    console.log(circle_x, circle_y);
+    // console.log(circle_x, circle_y);
   }
   //確認左邊邊界
   if (circle_x <= radius) {
     xSpeed *= -1;
-    console.log(circle_x, circle_y);
+    // console.log(circle_x, circle_y);
   }
   //更動圓的座標
   circle_x += xSpeed;

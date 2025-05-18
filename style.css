@@ -164,6 +164,7 @@ body main section.resume div.table table tr.language:hover {
 }
 body main section.resume div.table .logo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
